@@ -1,0 +1,122 @@
+/* *{
+  border: 1px solid black;
+} */
+
+head, body {
+  max-width: 1200px;
+  min-width: 770px;
+  margin: 0 auto;
+}
+
+/* nav */
+.navbar-brand {
+  color: #4682B4;
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+}
+
+
+/* 輪播 */
+.slide1 {
+  filter: brightness(0.8);
+  object-fit: cover;
+  object-position: top;
+}
+
+.slide2  {
+  filter: brightness(0.8);
+  object-fit: contain;
+  object-position: bottom;
+
+}
+
+.slide3 {
+  filter: brightness(0.7);
+  object-fit: contain;
+  object-position: bottom;
+}
+
+/* 中間標題 */
+h1 { 
+  color: #4682B4;
+  margin-bottom: -20px;
+  font-family: Apple Chancery, cursive;
+}
+
+small {
+  color: rgba(176, 196, 222);
+  font-family: URW Chancery L, cursive;
+}
+
+/* filter button */
+/* #filtered-by-gender {
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #4682B4;
+  box-shadow: 0 4px 12px 0 rgba(176, 196, 222, 0.5);
+}
+
+.no-filtered, .filtered-by-male, .filtered-by-female {
+  background-color: #4682B4;
+  color: white;
+}
+
+
+.filtered-by-male, .filtered-by-female {
+  border-left-color: white;
+} */
+
+.card-mode, .list-mode {
+  color: #4682B4;
+}
+
+.card-mode:hover, .list-mode:hover {
+  color:  rgba(176, 196, 222);
+}
+
+/* card */
+.card {
+  border-radius: 40px;
+  border: 3px solid #B0C4DE;
+  color: 	#4682B4;
+  box-shadow: 0 4px 12px 0 rgba(176, 196, 222, 0.5);
+}
+
+.card-avatar {
+  border-radius: 100px;
+  /* box-shadow: 0 0 10px rgba(0,150,200,1); */
+
+}
+
+/* list */
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle!important;
+  color: 	#4682B4;
+  height: 80px;
+}
+
+.list-avatar {
+  border-radius: 100px;
+  /* box-shadow: 0 0 10px rgba(0,150,200,1); */
+}
+
+
+/* modal 內 */
+.modal-title{
+  color: #4682B4;
+}
+
+.modal-avatar {
+  border-radius: 100px; 
+}
+
+.modal-body {
+  color: #4682B4;
+}
+
+
+/* paginator */
+.page-link {
+  color: rgb(127, 146, 172);
+}
